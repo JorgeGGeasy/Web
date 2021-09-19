@@ -10,6 +10,7 @@ const app = express();
 // Ponemos el puerto 4000
 app.set('port', process.env.PORT || 4000);
 // Especificamos las carpetas donde se guardan las vistas y handelbars como motor
+app.set('views', path.join(__dirname,'views'))
 app.engine('.hbs', exphbs({
     defaultLayout: 'main',
     layoutsDir: path.join(app.get('views'), 'layouts'),

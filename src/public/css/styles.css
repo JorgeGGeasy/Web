@@ -1,0 +1,29 @@
+ul {
+    width: 70%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+table.table {
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+td.text{
+    text-align: center;
+}
+
+th.text{
+    text-align: center;
+}
+
+p.text{
+    margin-top: 20%;
+    text-align: center;
+}
+
+ul#nav li a:hover,ul#nav li.active a{
+    color: coral;
+    
+   }
