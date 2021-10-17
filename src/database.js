@@ -1,3 +1,9 @@
+/*
+// Nombre fichero: database.js
+// Fecha: 19/9/2021
+// Autor: Jorge Grau Giannakakis
+// Descripción: Se crea la conexión con la base de datos
+*/
 const mysql = require('mysql');
 const { promisify } = require('util');
 const {database} = require('./keys');
